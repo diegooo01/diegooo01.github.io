@@ -1,0 +1,1155 @@
+body {
+  font-size: 14px;
+  margin: 0;
+}
+.main{
+padding: 5rem;
+}
+.container{
+  width:85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.header{
+  background:white;
+  color: white;
+  border-bottom: 2px solid rgba(0,0,0,1);
+  padding: 3rem 0;
+  position: fixed;
+  left: 0;
+  top:0;
+  right: 0;
+  z-index: 100;
+}
+.logo-nav-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.navigation ul li{
+  display:inline-block;
+}
+ .navigation ul li a{
+display: block;
+padding:0.5rem 1 rem;
+transition: all 0.2s linear;
+ }
+ .navigation ul li a:hover{
+   color: rgba(139,175,146,1);
+ }
+ 
+
+.img_fondo {
+  width: 100%;
+  height: 519px;
+  background: url("img_fondo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3663px;
+  left: 0px;
+  overflow: hidden;
+}
+.fondo_pie_pag {
+  width: 100%;
+  height: 508px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 4152px;
+  left: 1px;
+  overflow: hidden;
+}
+.fondo_caracteristicas {
+  width: 100%;
+  height: 902px;
+  background: rgba(87,133,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 2037px;
+  left: 0px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+.fondo_cara{
+  width:50px;
+  height:50px;
+  background: none;
+  position:absolute;
+  top:1970px;
+  left:0px;
+}
+.fondo_descarga {
+  width: 53%;
+  height: 392px;
+  background: rgba(87,133,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 3855px;
+  left: 25%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.etiqueta_caracteristicas {
+  width: 124px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 40px;
+  left: 1020px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.etiqueta_contactanos {
+  width: 109px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 40px;
+  left: 1344px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.etiqueta_quienes {
+  width: 147px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 40px;
+  left: 673px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.btn_obtener {
+  width: 190px;
+  height: 36px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 34px;
+  left: 1685px;
+  overflow: hidden;
+}
+.forma_obtener {
+  width: 190px;
+  height: 36px;
+  background: rgba(87,133,94,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+.etiqueta_obtener {
+  width: 166px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  transition: all 0.4s linear;
+}
+.etiqueta_obtener:hover{
+  color: black;
+}
+.inicio_quienes {
+  width: 725px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1593px;
+  left: 250px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.descripcion_quienes {
+  width: 667px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1700px;
+  left: 279px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.subtitulo_plantas {
+  width: 551px;
+  color: rgba(87,133,94,1);
+  position: absolute;
+  top: 3044px;
+  left: 710px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_cactus {
+  width: 308px;
+  height: 270px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3161px;
+  left: 816px;
+  overflow: hidden;
+}
+.img_cactus {
+  width: 308px;
+  height: 205px;
+  background: url("img_cactus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.cuadro_cactus {
+  width: 200px;
+  height: 242px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 68px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.fondoverde_cactus {
+  width: 200px;
+  height: 46px;
+  background: rgba(139,175,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 196px;
+  left: -2px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.palabra_cactus {
+  width: 63px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 206px;
+  left: 68px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_orquidea {
+  width: 200px;
+  height: 242px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3171px;
+  left: 1380px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.img_orquidea {
+  width: 186px;
+  height: 186px;
+  background: url("img_orquidea.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 5px;
+  overflow: hidden;
+}
+.fondoverde_orquidea {
+  width: 200px;
+  height: 46px;
+  background: rgba(139,175,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 196px;
+  left: -2px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.palabra_orquidea {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 205px;
+  left: 52px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_cinta {
+  width: 200px;
+  height: 242px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3171px;
+  left: 1132px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.fondoverde_cinta {
+  width: 200px;
+  height: 46px;
+  background: rgba(139,175,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 196px;
+  left: -2px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.palabra_cinta {
+  width: 178px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 206px;
+  left: 11px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.img_cinta {
+  width: 190px;
+  height: 177px;
+  background: url("img_cinta.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  overflow: hidden;
+}
+.pie_subtitulo_contacto {
+  width: 77px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4319px;
+  left: 931px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.pie_subtitulo_flora_company {
+  width: 128px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4319px;
+  left: 540px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.pie_subtitulo_obten {
+  width: 313px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4319px;
+  left: 1336px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.texto_correo {
+  width: 189px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4425px;
+  left: 935px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.etiqueta_pie_inicio {
+  width: 37px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4350px;
+  left: 547px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.etiqueta_pie_inicio:hover{
+  color:rgba(139,175,146,1);
+}
+.pie_copyright {
+  width: 511px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4583px;
+  left: 128px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.pie_terminos_y_condiciones {
+  width: 354px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4583px;
+  left: 1425px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.pie_terminos_y_condiciones:hover{
+  color:rgba(139,175,146,1);
+}
+.etiqueta_pie_caracteristicas {
+  width: 99px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4425px;
+  left: 547px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.etiqueta_pie_caracteristicas:hover{
+  color:rgba(139,175,146,1);
+}
+.etiqueta_pie_contactanos {
+  width: 87px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4462px;
+  left: 547px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.etiqueta_pie_contactanos:hover{
+  color:rgba(139,175,146,1);
+}
+.etiqueta_pie_quienes {
+  width: 118px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4387px;
+  left: 547px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.etiqueta_pie_quienes:hover{
+  color:rgba(139,175,146,1);
+}
+.texto_web {
+  width: 133px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4387px;
+  left: 935px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.texto_numero {
+  width: 120px;
+  color: rgba(217,217,217,1);
+  position: absolute;
+  top: 4350px;
+  left: 935px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_correo {
+  width: 314px;
+  height: 39px;
+  background: rgba(217,217,217,1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4350px;
+  left: 1335px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.caja_txt_correo {
+  width: 216px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.subtitulo_tu_jardin {
+  width: 583px;
+  color: rgba(87,133,94,1);
+  position: absolute;
+  top: 273px;
+  left: 250px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 65px;
+  opacity: 1;
+  text-align: left;
+}
+.descripcion_conoce {
+  width: 583px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.subtitulo_descargala {
+  width: 638px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3890px;
+  left: 645px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+}
+.descripcion_unete {
+  width: 516px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 4029px;
+  left: 710px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.subtitulo_caracteristicas {
+  width: 890px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2085px;
+  left: 90px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.sub_subtitulo_comunidad {
+  width: 264px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2680px;
+  left: 1390px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.sub_subtitulo_escaneo {
+  width: 264px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2666px;
+  left: 814px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.sub_subtitulo_noticias {
+  width: 264px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2666px;
+  left: 241px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.btn_enviar {
+  width: 117px;
+  height: 39px;
+  background: rgba(122,122,122,1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4350px;
+  left: 1532px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.btn_txt_enviar {
+  width: 50px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 9px;
+  left: 40px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.etiqueta_inicio {
+  width: 46px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 40px;
+  left: 473px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.logo_encabezado {
+  width: 192px;
+  height: 35px;
+  background: url("logo_encabezado.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 34px;
+  left: 86px;
+  overflow: hidden;
+}
+.img_logo_encabezado {
+  width: 52px;
+  height: 52px;
+  background: url("img_logo_encabezado.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 28px;
+  overflow: hidden;
+}
+.logo_pie {
+  width: 228px;
+  height: 53px;
+  background: url("logo_pie.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4352px;
+  left: 149px;
+  overflow: hidden;
+}
+.logo_facebook {
+  width: 39px;
+  height: 39px;
+  background: url("logo_facebook.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4417px;
+  left: 169px;
+  overflow: hidden;
+}
+.logo_twitter {
+  width: 39px;
+  height: 39px;
+  background: url("logo_twitter.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4417px;
+  left: 219px;
+  overflow: hidden;
+}
+.logo_instagram {
+  width: 39px;
+  height: 39px;
+  background: url("logo_instagram.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4417px;
+  left: 269px;
+  overflow: hidden;
+}
+.logo_youtube {
+  width: 39px;
+  height: 39px;
+  background: url("logo_youtube.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4417px;
+  left: 319px;
+  overflow: hidden;
+}
+.descripcion_noticias {
+  width: 264px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 2760px;
+  left: 241px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.descripcion_escaneo {
+  width: 264px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 2760px;
+  left: 814px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.descripcion_comunidad {
+  width: 264px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 2760px;
+  left: 1390px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.subtitulo_quienes {
+  width: 541px;
+  color: rgba(87,133,94,1);
+  position: absolute;
+  top: 1464px;
+  left: 250px;
+  font-family: Arimo Hebrew Subset;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.celular1 {
+  width: 281px;
+  height: 559px;
+  background: url("celular1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 1070px;
+  overflow: hidden;
+}
+.celular2 {
+  width: 280px;
+  height: 560px;
+  background: url("celular2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 1395px;
+  overflow: hidden;
+}
+.btn1_googleplay {
+  width: 242px;
+  height: 94px;
+  background: url("btn_googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 550px;
+  left: 250px;
+  overflow: hidden;
+}
+.btn1_appstore {
+  width: 242px;
+  height: 77px;
+  background: url("btn_appstore.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 559px;
+  left: 564px;
+  overflow: hidden;
+}
+.logo_quienes {
+  width: 334px;
+  height: 324px;
+  background: url("logo_quienes.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1550px;
+  left: 1225px;
+  overflow: hidden;
+}
+.img_noticias {
+  width: 232px;
+  height: 470px;
+  background: url("img_noticias.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2188px;
+  left: 255px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.img_escaneo {
+  width: 235px;
+  height: 470px;
+  background: url("img_escaneo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2188px;
+  left: 828px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.img_comunidad {
+  width: 237px;
+  height: 470px;
+  background: url("img_comunidad.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2188px;
+  left: 1404px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.caja_culantrillo {
+  width: 200px;
+  height: 242px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3171px;
+  left: 388px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.img_culantrillo {
+  width: 200px;
+  height: 178px;
+  background: url("img_culantrillo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  overflow: hidden;
+}
+.fondoverde_culantrillo {
+  width: 200px;
+  height: 46px;
+  background: rgba(139,175,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 196px;
+  left: -2px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.palabra_culantrillo {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 206px;
+  left: 52px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_palmera {
+  width: 200px;
+  height: 242px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3171px;
+  left: 636px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.img_palmera {
+  width: 183px;
+  height: 188px;
+  background: url("img_palmera.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.fondoverde_palmera {
+  width: 200px;
+  height: 46px;
+  background: rgba(139,175,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 197px;
+  left: -2px;
+  border: 2px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.palabra_palmera {
+  width: 161px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 206px;
+  left: 20px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.caja_btn_ver {
+  width: 263px;
+  height: 74px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3488px;
+  left: 855px;
+  overflow: hidden;
+}
+.fondo_btn_ver {
+  width: 258px;
+  height: 70px;
+  background: rgba(194,221,155,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid rgba(0,0,0,1);
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+}
+.palabra_ver_mas {
+  width: 127px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 65px;
+  font-family: Actor;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.fondo_hoja {
+  width: 100%;
+  height: 545px;
+  background: url("fondo_hoja.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 818px;
+  left: 0px;
+  overflow: hidden;
+}
+.fondo_ho{
+  width:50px;
+  height:50px;
+  background: none;
+  position:absolute;
+  top:1313px;
+  left:0px;
+}
+.img_btn2_googleplay {
+  width: 242px;
+  height: 94px;
+  background: url("btn_googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4114px;
+  left: 691px;
+  overflow: hidden;
+}
+.img_btn2_appstore {
+  width: 242px;
+  height: 77px;
+  background: url("btn_appstore.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4122px;
+  left: 1021px;
+  overflow: hidden;
+}
