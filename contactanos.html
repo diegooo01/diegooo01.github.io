@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arimo+Hebrew+Subset&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link rel="icon" href="imagenes/favicon.ico" type="ico" sizes="192px">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contáctanos</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="bnavcontainer">
+            <img src="imagenes/logo_enc.png" alt="logo">
+            <button class="burger-menu">&#9776;</button>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="somos.html">¿Quiénes somos?</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                    <li><a href="obtener.html">Obtener Aplicación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contactanos">
+            <h1>Contáctanos</h1>
+            <div class="containerS">
+            <div class="textocontact">
+                <h3>Ponte en contacto con nosotros ahora mismo</h3><br>
+                <p>Te invitamos a proporcionarnos tus datos para que puedas<br>
+                enviarnos un mensaje. Estamos aquí para escucharte y <br>                
+                responder a tus preguntas o inquietudes. Por favor, completa <br>                
+                el siguiente formulario con tus detalles y escibenos tu <br>                
+                mensaje, estaremos encantados de ayudarte. </p>            
+            </div>
+                <div id="contacto" class="contactof">
+                    <form class="contact_form" onsubmit="return mostrarMensaje()" id="contact_form">
+                        <p>Nombre completo:</p>
+                        <input type="text" name="nombre" placeholder="Ejemplo: Joaquin Rivadeneyra" required>
+                        <p>Número telefónico:</p>
+                        <input type="number" name="numero" placeholder="Ejemplo: 970525628" required>
+                        <p>Correo electrónico:</p>
+                        <input type="email" name="email" placeholder="Ejemplo: nerk@gmail.com" required>
+                        <p>Fecha de nacimiento:</p>
+                        <input type="date" name="fecha" placeholder="Fecha de nacimiento" required><br>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </div>            
+            </div>
+        </section>        
+    </main>
+    <footer class="footer">        
+        <br><br>
+        <div class="containerS">
+            <div>
+                <br><br>
+                <img src="imagenes/logo_pie.png" alt="logo_pie" width="250">
+                <div class="redes">
+                    <br><a href="https://www.facebook.com/" target="_blank" class="rs"><img src="imagenes/logo_facebook.png" alt="Facebook" width="34" height="34"> </a>
+                    <a href="https://twitter.com/?lang=es" target="_blank" class="rs"><img src="imagenes/logo_twitter.png" alt="Twitter" width="34" height="34"></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="rs"><img src="imagenes/logo_instagram.png" alt="Instagram" width="34" height="34"></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="rs"><img src="imagenes/logo_youtube.png" alt="Youtube" width="34" height="34"></a>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <h4>Flora Company</h4>
+                    <a href="index.html" class="texto">Inicio</a>
+                    <br><br>
+                    <a href="somos.html" class="texto">¿Quiénes somos?</a>
+                    <br><br>
+                    <a href="contactanos.html" class="texto">Contáctanos</a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h4>Contacto</h4>
+                    <p>(+51) 970 525 628<br><br>www.floracare.com<br><br>floracare@floracompany.pe</p>
+                </ul>
+            </div>
+            <div>
+                <ul><br>
+                    <a href="https://play.google.com/store/games?hl=es_PE&gl=US&pli=1" target="_blank" class="download"><img src="imagenes/googleplay.png" alt="imagen-playstore-logo" width="200" height="60"></a><br><br>
+                    <a href="https://www.apple.com/la/app-store/" target="_blank" class="download"><img src="imagenes/appstore.png" alt="imagen-appstore-logo" width="200" height="60"></a>
+                </ul>
+            </div>
+        </div>
+        <br><br><p>Copyright &copy; 2023 Flora Company. All Rights Reserved.</p><br>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var burgerButton = document.querySelector('.burger-menu');
+            var navbar = document.querySelector('navbar');
+
+            burgerButton.addEventListener('click', function () {
+                navbar.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
