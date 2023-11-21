@@ -1,0 +1,351 @@
+body {
+    font-family: 'Arimo';
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .burger-menu {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  .burger-menu {
+      display: block;
+  }
+
+  .navbar {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 85px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      border-top: 2px solid rgba(87,133,94,1);
+      border-bottom: 2px solid rgba(87,133,94,1);
+      padding: 10px;
+      z-index: 1;
+  }
+
+  .navbar a {
+      margin-top:10px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      display: block;
+  }
+
+  .navbar.active{
+    display: block;
+  }
+}
+
+  .cInicio h1{
+    margin: 0 0 5px;
+    font-size: 60px;
+    color: rgba(87,133,94,1);;
+  }
+  .cInicio p{
+    margin: 0 0 5px;
+    font-size: 25px;
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 13rem;
+    margin-left: center;    
+  }
+  .main {
+    text-align: center;
+  }
+  .csobrenosotros{
+    align-items: center;
+    font-size: 34px;    
+  }
+  .psobrenosotros{
+    font-size:90px;
+  }
+  .header{
+    background:#ffffff;
+    color: black;
+    padding: 1rem ;
+    border-bottom: 2px solid rgba(87,133,94,1);
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    font-family: 'Actor';
+  }
+  .header a{
+    color: #000000;
+    text-decoration: none;
+  }
+  .bnavcontainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .name{
+    letter-spacing: 2px;
+    font-size: 2em;
+  }
+  .navbar ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+  }
+  .navbar ul li{
+    display:inline-block;
+    padding: 15px;
+  }
+  .navbar ul li a{
+    display: block;
+    padding: 0.5rem 0 rem;
+    transition: all 0.3s linear;
+    border-radius: 0px;
+    font-size: 19px;
+  }
+  .navbar ul li a:hover{
+    color: rgba(87,133,94,1);
+    font-size: 19px;
+    transform: scale(1.1);
+  }
+  .cInicio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+  }
+  .col1{
+    padding-top: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageBIO{
+    width: 75%;
+  }
+  .col2{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sobrenosotros img{
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .sobrenosotros video{
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .container h1{
+    font-size: 2.5em;
+    margin: 0 0 10px;
+    color: rgba(87,133,94,1);
+  }
+  .container h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+    color: black;
+  }
+  .container p{
+    color: #000000;
+    font-size: 16px;
+  }
+  .container ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  .cServicios img{
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .nuestrosobjetivos{
+    background-color: white;
+  }
+  .textNObj{
+    text-align:center;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    color: rgba(87,133,94,1);
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+  }
+  .containerS{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+  }  
+  .containerS ul{
+    text-align: left;
+  }
+  .containerS a{
+    font-size: 18px;
+  }
+  .containerS p{
+    font-size: 17px;
+  }
+  .containerS h4{
+    text-align: left;
+    font-size: 20px;
+  }
+  .texto{
+    color:white;
+    text-decoration: none;
+    transition: all 0.2s linear;
+  }
+  .texto:hover{
+    color:rgba(139,175,146,1);
+  }
+  .boxS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  .boxS img{ 
+    width: 60%;
+  }
+  .fondo_hoja{ 
+    width: 100%;
+  }
+  h3{
+    color: rgba(87,133,94,1);
+    font-size: 35px;
+    margin: 10px 0;
+  }
+  .boxS p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+  .contact_form {
+    max-width: 800px;
+    padding: 50px;
+    display: grid;
+    margin: 0 auto;
+  }
+  .contact_form1{
+    text-align: left;
+  }
+  .email{
+    color:rgba(87,133,94,1);
+  }
+  .enviar{
+    color:rgba(87,133,94,1);
+    background-color: white;
+    transition: all 0.3s linear;
+  }
+  .enviar:hover{
+    color:white;
+    background-color: rgba(87,133,94,1);
+  }
+  footer {
+    background: black;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+    color: #ffffff; 
+  }
+  .rs {
+    margin: 10px;
+  }
+  .download {
+    margin: 2px;
+  }
+  .contactanos{
+    margin-top: 10rem;
+  }
+  .contactanos h1{
+    text-align:center;
+    font-size: 80px;
+    font-family: Arimo;
+    color: rgba(87,133,94,1);
+  }
+  .textocontact h3{
+    text-align: center;
+    font-size:40px;
+  }
+  .textocontact p{
+    text-align: center;    
+    padding-top: 2rem;
+    font-size: 27px;
+  }
+  .contactof{
+    color:white;
+    background-color: rgba(87,133,94,1);
+  }
+  .enviar:hover{
+    color:white;
+    cursor:pointer;
+  }
+  .obtenerapp{
+    margin-top: 10rem;
+  }
+  .obtenerapp h1{
+    text-align:center;
+    font-size: 80px;
+    font-family: Arimo;
+    color: rgba(87,133,94,1);
+  }
+  .containerO{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+  }
+  .textoO{
+    text-align: center;
+  }
+  .textoO h2{
+    font-size: 45px;
+    color: rgba(87,133,94,1);
+  }
+  .textoO p{
+    font-size: 25px;
+  }
+  .download2{
+    text-align: center;
+    padding-top: 6rem;
+  }
+  .videoO{
+    font-size: 30px;
+    color: rgba(87,133,94,1);
+    padding-top:4rem;
+    text-align: center;
+  }
+  .col4{
+    padding: 1rem 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerS h2{
+    color: rgba(87,133,94,1);
+  }
